@@ -18,8 +18,8 @@
   A front and back end application for creating and storing notes, made for the coding bootcamp using express.js. 
 
   
-  <img src = "./public/assets/images/screenshot1.png">
-  <img src = "./public/assets/images/screenshot2.png">
+  <img src = "./public/assets/images/screenshot (1).png">
+  <img src = "./public/assets/images/screenshot (2).png">
 
   
   
