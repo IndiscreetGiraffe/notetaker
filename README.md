@@ -1,5 +1,4 @@
 # Take-note
-# Note-Taker
 
   ![Badge for License](https://img.shields.io/badge/license-Open-informational)
   
