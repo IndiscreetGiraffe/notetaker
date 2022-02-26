@@ -1,6 +1,10 @@
-[
-    {
-        "title":"Test Title",
-        "text":"Test text"
-    }
-]
+{
+    "notes": [
+        {
+            "title":"Testing testing",
+            "text":"HEllO, I'M STUCK INSIDE A COMPUTER",
+            "id": "1"
+        }
+    ]
+}
+
