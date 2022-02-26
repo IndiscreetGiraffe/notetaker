@@ -58,7 +58,7 @@ app.get('/notes', (req,res) => {
 })
 
 app.listen(PORT, () => {
-    console.log('Yay! Server now on port ${PORT}!');
+    console.log(`Yay! Server now on port ${PORT}!`);
 });
 
 
