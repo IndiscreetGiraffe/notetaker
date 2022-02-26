@@ -19,12 +19,38 @@ function createNewNote(body, notesArray) {
     
     fs.writeFileSync(
         path.join(__dirname, './Develop/db/db.json'),
-        JSON.stringify({notes: notesArray }, null, 2)
+        JSON.stringify({notes: notesArray }, null, 1)
     );
 
     return body;
 
+};
+
+function validateNote(note) {
+    if (!note.title || typeof note.title !== 'string') {
+        return false;
+    }
+    if (!note.text || typeof note.text !== 'string') {
+        return false;
+    }
+    return true;
+
 }
+
+app.post('/api/notes', (req, res) => {
+    console.log(req.body);
+    req.body.id = notes.length.toString();
+
+    if (!validateNote(req.body)) {
+        res.status(400).send('Your note is not formatted correctly, please fix.');
+    } else {
+        const note = createNewNote(req.body, notes)
+        res.json(note);
+    }
+})
+
+
+
 
 
 
