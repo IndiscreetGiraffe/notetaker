@@ -3,7 +3,7 @@ const path = require('path');
 const express = require('express');
 const { notes } = require('./Develop/db/db.json');
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3001;
 const app = express();
 
 app.use(express.json());
@@ -56,6 +56,10 @@ app.get('/', (req,res) => {
 app.get('/notes', (req,res) => {
     res.sendFile(path.join(__dirname, './public/notes.html'))
 })
+
+app.listen(PORT, () => {
+    console.log('Yay! Server now on port ${PORT}!');
+});
 
 
 
