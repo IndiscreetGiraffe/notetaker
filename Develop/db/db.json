@@ -1,0 +1,24 @@
+{
+ "notes": [
+  {
+   "title": "Testing testing",
+   "text": "HEllO, I'M STUCK INSIDE A COMPUTER",
+   "id": "1"
+  },
+  {
+   "title": "Groceries",
+   "text": "eggs\nmilk\nsouls\n",
+   "id": "1"
+  },
+  {
+   "title": "Walk the dog",
+   "text": "Don't forget the doggie bags!",
+   "id": "2"
+  },
+  {
+   "title": "D&D Session at 9",
+   "text": "Please don't forget your character sheet you idiotic half-dwarf!\nOr your dice\nAnd bring your mini fig to show the group\n...Also pizza, it's your turn.",
+   "id": "3"
+  }
+ ]
+}
